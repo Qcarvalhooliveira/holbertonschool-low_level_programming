@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
-* main  - Program C
-* Return 0
-*/
+ * main  - Program C
+ * 
+ * Return 0
+ */
 int main(void)
 {
 	char a;
