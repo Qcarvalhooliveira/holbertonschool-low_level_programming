@@ -2,7 +2,7 @@
 
 /**
  * main - Program C
- * 
+ *
  * Return: 0 (Sucess)
  */
 int main(void)
