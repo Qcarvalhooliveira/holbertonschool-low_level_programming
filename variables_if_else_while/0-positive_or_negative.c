@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <stdio.h>:wq
+
 #include <time.h>
 #include <stdlib.h>
 
