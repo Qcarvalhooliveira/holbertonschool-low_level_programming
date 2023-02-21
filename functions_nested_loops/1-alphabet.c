@@ -3,7 +3,7 @@
 /**
  * print_alphabet - Prints the alphabet
  *
- * Return: Always 0.
+ * Return: void.
  *
  */
 
@@ -18,7 +18,5 @@ for  (c = 'a'; c <= 'z'; c++)
 _putchar(c);
 }
 _putchar('\n');
-
-return (0);
 
 }
