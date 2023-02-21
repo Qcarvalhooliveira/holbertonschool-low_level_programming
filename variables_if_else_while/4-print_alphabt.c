@@ -3,22 +3,27 @@
 #include <stdlib.h>
 
 /**
- * main - prints single digit numbers
+ * main - prints alphabet in lowercase
  *
  * Return: 0 (Sucess)
  *
  */
 
 int main(void)
+
 {
 
-int num;
+char alphabet, e, q;
 
-for (num = 0; num < 10; num ++)
-printf("%d", num);
+e = 'e';
+q = 'q';
 
-printf ('\n');
-
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+{
+if (alphabet != e && alphabet !=q)
+putchar(alphabet);
+}
+putchar('\n');
 return (0);
 
 }
