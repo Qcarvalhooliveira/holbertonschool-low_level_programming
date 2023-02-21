@@ -20,7 +20,7 @@ for (d = '0'; d <= '9'; d++)
 putchar(d);
 
 for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
-utchar(alphabet);
+putchar(alphabet);
 putchar('\n');
 
 return (0);
