@@ -5,7 +5,7 @@
  *
  * @c: The character to be checked.
  *
- * Return: 1 for positive number, -1 for negative number or 0 for anything else.
+ * Return: 1 for positive n°, -1 for negative n° or 0 for anything else.
  *
  */
 
