@@ -3,7 +3,7 @@
 /**
  * _abs - Computes the absolute value of an integer.
  *
- * @n: The character to be checked.
+ * @c: The character to be checked.
  *
  * Return: Absolute value of number or zero.
  *
