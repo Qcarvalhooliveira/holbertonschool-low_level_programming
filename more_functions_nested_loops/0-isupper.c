@@ -6,7 +6,7 @@
  *
  *@c: The character to be checked.
  *
- * Return: 1 if uppercase, otherwise 0.
+ * Return: 1 if uppercase, otherwise 0..
  *
  */
 
