@@ -4,8 +4,7 @@
 /**
  * mul - multiplies two integers.
  *
- *@a: Fist operand.
- *
+ *@a: First operand
  *@b: Second operand.
  *
  * Return: Product of both operands..
