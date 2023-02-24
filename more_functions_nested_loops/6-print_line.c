@@ -17,5 +17,5 @@ while (n > 0)
 _putchar('_');
 n--;
 }
-_putchar('\n');
+putchar('\n');
 }
