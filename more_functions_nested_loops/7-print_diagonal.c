@@ -16,7 +16,7 @@ int i, j;
 if (n <= 0)
 putchar('\n');
 else
-for (j = 0; n > 0; n--; j++)
+for (j = 0; n > 0; n--, j++)
 {
 for (i = 0; i < j; i++)
 {
