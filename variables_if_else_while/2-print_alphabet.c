@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * main - prints positive or negative numbers
+ * main - Prints the alphabet in lowercase
  * Return: 0 (Sucess)
  *
  */
