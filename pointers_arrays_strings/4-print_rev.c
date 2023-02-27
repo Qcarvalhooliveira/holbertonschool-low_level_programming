@@ -13,7 +13,7 @@ int len, i;
 
 len = _strlen(s) - 1;
 for (i = len; i >= 0; i--)
-putchar(*(s + i));
-putchar('\n');
+_putchar(*(s + i));
+_putchar('\n');
 
 }
