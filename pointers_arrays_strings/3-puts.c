@@ -6,7 +6,7 @@
  *@str: String being printed.
  */
 
-void _puts(char *str);
+void _puts(char *str)
 
 {
 
