@@ -3,6 +3,7 @@
 
 /**
  * _strlen - Returns the length of a string.
+ *
  *@s: String being evaluated.
  *
  * Return: Length of string
@@ -25,6 +26,7 @@ return (i);
 
 /**
  * rev_string - Reverses a string.
+ *
  * @s: Array being reversed.
  *
  */
@@ -38,8 +40,8 @@ len = _strlen(s) - 1;
 for (i = 0; i < (len / 2); i++)
 {
 tmp = s[i];
-s[i] = s[len -i];
-s[len -i] = tmp;
+s[i] = s[len - i];
+s[len - i] = tmp;
 }
 
 }
