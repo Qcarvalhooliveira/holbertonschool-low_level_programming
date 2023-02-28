@@ -26,7 +26,8 @@ return (i);
 /**
  * rev_string - Reverses a string.
  * @s: Array being reversed.
- *    */
+ *
+ */
 
 void rev_string(char *s)
 
