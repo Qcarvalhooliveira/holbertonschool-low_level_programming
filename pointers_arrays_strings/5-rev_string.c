@@ -14,25 +14,18 @@ int _strlen(char *s)
 {
 
 int i = 0;
+
 while (*s++)
 i++;
 return (i);
-
 }
-
-
-#include "main.h"
-#include <stdio.h>
-
 /**
  * rev_string - Reverses a string.
  *
  * @s: Array being reversed.
  *
  */
-
 void rev_string(char *s)
-
 {
 int i, len, tmp;
 
@@ -43,5 +36,4 @@ tmp = s[i];
 s[i] = s[len - i];
 s[len - i] = tmp;
 }
-
 }
