@@ -2,6 +2,26 @@
 #include <stdio.h>
 
 /**
+ * _strlen - Returns the length of a string.
+ *@s: String being evaluated.
+ */
+
+void _strlen(char *s)
+
+{
+
+int i = 0;
+while (*s++)
+i++;
+return (i);
+
+}
+
+
+#include "main.h"
+#include <stdio.h>
+
+/**
  * print_rev - Prints a string, in reverse.
  * @s: String being reversed.
  */
