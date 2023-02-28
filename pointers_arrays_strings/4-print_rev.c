@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * _strlen - Returns the length of a string.
+ * strlen - Returns the length of a string.
  *@s: String being evaluated.
  */
 
-void _strlen(char *s)
+void strlen(char *s)
 
 {
 
@@ -31,7 +31,7 @@ void print_rev(char *s)
 {
 int len, i;
 
-len = _strlen(s) - 1;
+len = strlen(s) - 1;
 for (i = len; i >= 0; i--)
 putchar(*(s + i));
 putchar('\n');
