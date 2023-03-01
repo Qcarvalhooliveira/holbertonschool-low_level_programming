@@ -4,11 +4,14 @@
 /**
  * string_toupper - Function that changes all lowercase letters of a string to uppercase.
  * @n: pointer
+ *
  * Return: n
  */
+
 char *string_toupper(char *)
 {
 int i;
+
 i = 0;
 while (n[i] != '\0')
 {
