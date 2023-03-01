@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcat - Function that concatenates two strings.
+ * *_strncat - Function that concatenates two strings.
  * @dest: string being concatenate
  * @src: string being concatenate
  * @n: Number of bytes.
