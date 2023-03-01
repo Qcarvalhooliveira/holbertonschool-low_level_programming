@@ -6,7 +6,7 @@
  * @s1: string being compared.
  * @s2: string being compared.
  *
- * Return: 0
+ * Return: string s1 and s2
  */
 
 int _strcmp(char *s1, char *s2)
@@ -21,6 +21,6 @@ i = 0;
 while (s1[i] && s2[i] && s1[i] == s2[i])
 i++;
 
-return (0);
+return (s1[i] - s2[i]);
 }
 
