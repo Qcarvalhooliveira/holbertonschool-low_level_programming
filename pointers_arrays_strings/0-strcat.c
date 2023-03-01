@@ -3,8 +3,8 @@
 
 /**
  * *_strcat - Function that concatenates two strings.
- * @*dest: string being concatenate
- * @*src: string being concatenate
+ * @dest: string being concatenate
+ * @src: string being concatenate
  *
  * Return: dest
  */
