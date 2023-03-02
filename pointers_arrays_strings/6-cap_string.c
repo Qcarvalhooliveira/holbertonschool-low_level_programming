@@ -2,16 +2,15 @@
 #include <stdio.h>
 
 /**
- * cap_string - Function that capitalizes all words of a string..
+ * *cap_string - Function that capitalizes all words of a string..
  * @str: String to be capitalizaded.
- *
  * Return: Pointer to changed string.
+ *
  */
 
 char *cap_string(char *)
 {
 int index = 0;
-srt = int index;
 
 while (str[index])
 {
