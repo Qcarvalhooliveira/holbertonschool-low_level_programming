@@ -15,7 +15,7 @@ int index = 0;
 while (str[index])
 {
 while (!(srt[index] >= 'a' && str[index] <= 'z'))
-index++
+index++;
 if (str[index -1] == ' ' ||
 str[index -1] == '\t' ||
 str[index -1] == '\n' ||
