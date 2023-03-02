@@ -11,6 +11,7 @@
 char *cap_string(char *)
 {
 int index = 0;
+srt = int index;
 
 while (str[index])
 {
