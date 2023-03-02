@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /*
- * *leet - Function that encodes a string into 1337.
+ * leet - Function that encodes a string into 1337.
  * @n: input value
+ *
  * Return: n value
  *
  */
