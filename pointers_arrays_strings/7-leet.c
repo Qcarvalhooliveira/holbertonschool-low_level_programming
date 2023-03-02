@@ -17,7 +17,7 @@ char number[] = "4433007711";
 for (i = 0; n[i]; i++)
 for (j = 0; letter[j]; j++)
 if (letter[j] == n[i])
-s[i] == number[j];
+n[i] == number[j];
 return (n);
 }
 
