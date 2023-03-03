@@ -7,7 +7,7 @@
  * @accept: bytes being searched.
  *
  * Return: ponters to the byte in s or null.
- *       */
+ */
 
 char *_strpbrk(char *s, char *accept)
 {
