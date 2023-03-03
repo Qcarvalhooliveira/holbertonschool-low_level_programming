@@ -3,10 +3,8 @@
 
 /**
  * print_chessboard - Function that that prints the chessboard.
- * @haystack: string being chearched.
- * @needle: substring being searched.
+ * @a: array being evaluated.
  *
- * Return: pointer to beginning of located substing or null.
  */
 
 void print_chessboard(char (*a)[8])
