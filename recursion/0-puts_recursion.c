@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * _puts_reccursion - Function that prints a string.
+ * _puts_recursion - Function that prints a string.
  *
  * @s: string being evaluated.
  */
