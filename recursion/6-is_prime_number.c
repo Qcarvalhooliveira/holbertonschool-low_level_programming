@@ -23,7 +23,7 @@ return (test_prime(n, i + 1));
 }
 
 /**
- * _is_prime_number - Checks for prime number.
+ * is_prime_number - Checks for prime number.
  *
  * @n: Number being evaluated.
  *
