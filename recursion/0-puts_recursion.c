@@ -1,5 +1,6 @@
 #include "main.h"
 #include <unistd.h>
+#include <stdio.h>
 
 /**
  * _puts_reccursion - Function that prints a string.
@@ -11,7 +12,11 @@ void _puts_recursion(char *s)
 {
 		
 if (!*s)
+{
 _putchar('\n');
 return;
+}
+
+_putchar(*s);
 _puts_recursion(s + 1);
 }
