@@ -4,7 +4,7 @@
 /**
  * _puts_reccursion - Function that prints a string.
  *
- * @s: string being evaluated..
+ * @s: string being evaluated.
  */
 
 void _puts_recursion(char *s)
@@ -12,7 +12,7 @@ void _puts_recursion(char *s)
 
 if (!*s)
 {
-putchar('\n');
+_putchar('\n');
 return;
 }
 _putchar(*s);
