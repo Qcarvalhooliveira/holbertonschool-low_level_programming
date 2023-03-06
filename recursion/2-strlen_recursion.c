@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * _strlen_recursion - Function that returns the length of a string..
+ *_strlen_recursion - Function that returns the length of a string..
  *
  * @s: string being evaluated.
  */
