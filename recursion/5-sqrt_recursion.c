@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * test_root - Test for maximum squares..
+ * test_root - Test for maximum squares.
  * @n: Number being evaluated.
  * @i: Test values being interated.
  *
@@ -31,4 +31,4 @@ return (test_root(n, i + 1));
 int _sqrt_recursion(int n)
 {
 return (test_root(n, 1));
-}    
+}
