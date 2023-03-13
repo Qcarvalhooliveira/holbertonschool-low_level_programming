@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * *_strdup - Function that returns a pointer to a newly allocated space in memory.
+ * *_strdup - Returns a pointer to a newly allocated space in memory.
  * @str: String to e copied.
  *
  * Return: Pointer to new string identcal to str, NULL if str = NULL
