@@ -1,4 +1,4 @@
-** # C - Variadic functions**
+# **C - Variadic functions**
 
 ** ## Description **
 
