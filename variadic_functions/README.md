@@ -1,8 +1,8 @@
 **###C - Variadic functions**
 
-Description 
+####Description 
 
-What we will learn from this project:
+###What we will learn from this project:
 
 . What are variadic functions
 
