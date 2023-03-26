@@ -1,8 +1,8 @@
-**###C - Variadic functions**
+**# C - Variadic functions**
 
-#### Description 
+**## Description **
 
-### What we will learn from this project:
+**### What we will learn from this project:**
 
 . What are variadic functions
 
@@ -10,9 +10,9 @@
 
 . Why and how to use the const type qualifier
 
-**#Tasks**
+**# Tasks**
 
-0. Beauty is variable, ugliness is constant
+** 0. Beauty is variable, ugliness is constant **
 
 . Write a function that returns the sum of all its parameters.
 
