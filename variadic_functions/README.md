@@ -1,4 +1,4 @@
-###C - Variadic functions
+**###C - Variadic functions**
 
 Description 
 
@@ -10,7 +10,7 @@ What we will learn from this project:
 
 . Why and how to use the const type qualifier
 
-**##Tasks##**
+**#Tasks**
 
 0. Beauty is variable, ugliness is constant
 
