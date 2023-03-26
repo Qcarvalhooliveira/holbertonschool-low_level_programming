@@ -1,8 +1,8 @@
-# ** C - Variadic functions**
+#** C - Variadic functions**
 
-## ** Description **
+##** Description **
 
-### ** What we will learn from this project: **
+###** What we will learn from this project: **
 
 . What are variadic functions
 
@@ -10,20 +10,20 @@
 
 . Why and how to use the const type qualifier
 
-### ** Tasks **
+###** Tasks **
 
-##### ** 0. Beauty is variable, ugliness is constant **
+#####** 0. Beauty is variable, ugliness is constant **
 
 . Write a function that returns the sum of all its parameters.
 
-##### ** 1. To be is to be the value of a variable **
+#####** 1. To be is to be the value of a variable **
 
 . Write a function that prints numbers, followed by a new line.
 
-#### ** 2. One woman's constant is another woman's variable **
+####** 2. One woman's constant is another woman's variable **
 
 . Write a function that prints strings, followed by a new line.
 
-#### ** 3. To be is a to be the value of a variable **
+####** 3. To be is a to be the value of a variable **
 
 . Write a function that prints anything.
