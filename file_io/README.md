@@ -15,40 +15,41 @@ Integer value	Name	<unistd.h> symbolic constant[1]	<stdio.h> file stream[2]
 
 ## **TASKS**
 
-### 0. Tread lightly, she is near
+#### 0. Tread lightly, she is near
 
 * Write a function that reads a text file and prints it to the POSIX standard output.
 
-### 1. Under the snow
+#### 1. Under the snow
 
 * Create a function that creates a file.
 
-### 2. Speak gently, she can hear
+#### 2. Speak gently, she can hear
 
 * Write a function that appends text at the end of a file.
 
-### 3. cp
+#### 3. cp
 
 * Write a program that copies the content of a file to another file.
 
 ## **Prototype**
 
-'''ssize_t read_textfile(const char *filename, size_t letters);							'''
-'''int create_file(const char *filename, char *text_content);							'''	'''int append_text_to_file(const char *filename, char *text_content);						'''	
+```ssize_t read_textfile(const char *filename, size_t letters);							```
+```int create_file(const char *filename, char *text_content);							```
+```int append_text_to_file(const char *filename, char *text_content);						```	
 
 ## **Compilation**
 
 * Our code will be compiled this way:
 
-'''gcc -Wall -Werror -Wextra -pedantic -std=gnu89								'''
+```gcc -Wall -Werror -Wextra -pedantic -std=gnu89								```
 
 ## **Betty style**
 
 * It will be checked using:
 
-''' betty-style.pl												'''	or
+```betty-style.pl												```	or
 
-'''betty-doc.pl													'''
+```betty-doc.pl													```
 
 ## **Author**
 
