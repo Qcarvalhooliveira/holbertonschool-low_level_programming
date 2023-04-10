@@ -33,23 +33,27 @@ Integer value	Name	<unistd.h> symbolic constant[1]	<stdio.h> file stream[2]
 
 ## **Prototype**
 
-```ssize_t read_textfile(const char *filename, size_t letters);							```
-```int create_file(const char *filename, char *text_content);							```
-```int append_text_to_file(const char *filename, char *text_content);						```	
+```ssize_t read_textfile(const char *filename, size_t letters);							     ```
+
+```int create_file(const char *filename, char *text_content);							     ```
+
+```int append_text_to_file(const char *filename, char *text_content);						     ```	
 
 ## **Compilation**
 
 * Our code will be compiled this way:
 
-```gcc -Wall -Werror -Wextra -pedantic -std=gnu89								```
+```gcc -Wall -Werror -Wextra -pedantic -std=gnu89								     ```
 
 ## **Betty style**
 
 * It will be checked using:
 
-```betty-style.pl												```	or
+```betty-style.pl												     ```
 
-```betty-doc.pl													```
+	or
+
+```betty-doc.pl													     ```
 
 ## **Author**
 
