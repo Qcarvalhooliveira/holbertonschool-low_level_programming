@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 	if (fd_from == -1)
 	{
 	char error_message[100];
-	sprintf(error_message, "Error: Can't read from file %s", argv[1]);
+	dprintf(*error_message, "Error: Can't read from file %s", argv[1]);
 	print_error_and_exit(98, error_message);
 	}
 	fd_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 	if (fd_to == -1)
 	{
 	char error_message[100];
-	sprintf(error_message, "Error: Can't write to %s", argv[2]);
+	dprintf(*error_message, "Error: Can't write to %s", argv[2]);
 	print_error_and_exit(99, error_message);
 	}
 	while ((bytes_read = read(fd_from, buffer, BUFFER_SIZE)) > 0)
@@ -56,13 +56,13 @@ int main(int argc, char *argv[])
 	if (close(fd_from) == -1)
 	{
 	char error_message[100];
-	sprintf(error_message, "Error: Can't close fd %d", fd_from);
+	dprintf(*error_message, "Error: Can't close fd %d", fd_from);
 	print_error_and_exit(100, error_message);
 	}
 	if (close(fd_to) == -1)
 	{
 	char error_message[100];
-	sprintf(error_message, "Error: Can't close fd %d", fd_to);
+	dprintf(*error_message, "Error: Can't close fd %d", fd_to);
 	print_error_and_exit(100, error_message);
 	}
 	return (0);
