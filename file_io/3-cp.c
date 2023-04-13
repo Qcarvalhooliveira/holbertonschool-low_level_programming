@@ -6,6 +6,7 @@
  * print_error_and_exit - program that copies the content of a file to another file.
  * @exit_code:if you can not close a file descriptor.
  * @error_message: standard error.
+ * @main: copies of the files.
  *
  * Return: 0 if sucess or exits on error.
  */
@@ -15,7 +16,7 @@ void print_error_and_exit(int exit_code, char* error_message)
 	exit(exit_code);
 }
 
-	int main(int argc, char* argv[])
+	int main(int argc, char *argv[])
 	{
 	int fd_from, fd_to;
 	ssize_t bytes_read, bytes_written;
