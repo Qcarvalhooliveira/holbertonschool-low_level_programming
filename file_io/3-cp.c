@@ -25,8 +25,7 @@ void print_error_and_exit(int exit_code, char* error_message) {
 				    
 				    fd_from = open(argv[1], O_RDONLY);
 				        if (fd_from == -1) {
-						        char error_message[100];
-							        dprintf(STDERR_FILENO, "Error: Can't read from file %s", argv[1]);
+						      dprintf(STDERR_FILENO, "Error: Can't read from file %s", argv[1]);
 								        exit(98);
 									    }
 					    
